@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+}
+.mainview {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translateX(-30%) translateY(-30%);
+  background-color: black;
+}
+.btn {
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  margin: 1px;
+}
+
+#view {
+  width: 173px;
+  height: 35px;
+  font-size: 6;
+  cursor: pointer;
+}
