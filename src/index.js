@@ -1,7 +1,11 @@
 import "./styles.css";
+import Clock from "./clock";
 
-var view = document.getElementById("view");
-var btns = Array.from(document.getElementsByTagName("button"));
+const clock = new Clock();
+clock.init();
+
+const view = document.getElementById("view");
+const btns = Array.from(document.getElementsByTagName("button"));
 
 for (let i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function (e) {

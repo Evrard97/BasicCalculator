@@ -8,6 +8,7 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
+    "moment": "2.29.1",
     "parcel-bundler": "^1.6.1"
   },
   "devDependencies": {
