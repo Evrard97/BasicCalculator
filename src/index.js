@@ -1,8 +1,10 @@
 import "./styles.css";
 import Clock from "./clock";
+import testFetch from "./fetch.js";
 
 const clock = new Clock();
 clock.init();
+testFetch();
 
 const view = document.getElementById("view");
 const btns = Array.from(document.getElementsByTagName("button"));
